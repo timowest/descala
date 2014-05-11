@@ -1,15 +1,15 @@
 package descala;
 
-import org.junit.Test;
-
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.junit.Ignore;
+import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class AnonRenamingTest {
 
-    @Test
+    @Test @Ignore
     public void test() {
         Map<String, String> names = new LinkedHashMap<>();
         names.put("ServiceClass$$anonfun$1", "ServiceClass$1");
